@@ -1,0 +1,67 @@
+.home {
+  min-height: ;
+  background-image: url("https://cdn.dribbble.com/users/3809802/screenshots/16059651/media/5c4954ef88fcf88dd0d1604e5e12377e.png?compress=1&resize=1200x900&vertical=top");
+
+  background-size: cover;
+  background-position: right;
+  padding: 80px;
+}
+
+.full-screen {
+  min-height: 80vh;
+}
+.home-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.block {
+  flex: 0 0 75%;
+  max-width: 75%;
+  color #150050;
+  padding-left: 35px;
+  border-left: 3px solid ##150050;
+  margin-top: 50px;
+}
+.block h1 {
+  color:#150050;
+  font-size: 45px;
+  font-weight: 500;
+  margin: 40;
+  padding: 0;
+}
+.block h3 {
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+.block h6 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+.cv-btn {
+  padding-top: 20px;
+}
+.cv-btn a {
+  font-size: 14px;
+  color:white;
+  background-color:#610094 ;
+  border: 1px solid #150050 ;
+  border-radius: 4px;
+  padding: 12px 25px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.cv-btn a:hover {
+  background-color:#;
+  color:#FFC8C8;
+}

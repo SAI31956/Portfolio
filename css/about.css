@@ -1,0 +1,126 @@
+.about {
+  padding: 80px 15px;
+  background-color: #fff;
+}
+
+.img {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.img img {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+}
+
+.text {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding-left: 30px;
+}
+
+.text h2 {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0 0 10px;
+  color: #150050;
+}
+
+.text h4 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 25px;
+  color: #000;
+}
+
+.text h4 span {
+  color: #150050;
+  position: relative;
+}
+
+.text h4 span::before {
+  content: "";
+  left: 0;
+  right: 90%;
+  position: absolute;
+  height: 2px;
+  bottom: 0px;
+  transition: all 0.5s ease;
+}
+
+.text h4 span:hover::before {
+  content: "";
+  left: 0;
+  right: 0;
+  position: absolute;
+  height: 2px;
+  background-color: #3F0071;
+  bottom: 0px;
+}
+
+.text p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #071C21;
+}
+
+.skills {
+  padding: 20px 0px;
+}
+
+.skills h1 {
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0 0 25px;
+  color: #3F0071;
+}
+.skills-list {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-ul li {
+  font-size: 14px;
+  font-weight: 400;
+  color: #071C21;
+}
+
+.fa-ul .fa-li {
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+}
+.social {
+  padding-top: 10px;
+}
+
+.social a {
+  height: 30px;
+  width: 30px;
+  background-color: #150050;
+  display: inline-block;
+  border: 1px solid #150050;
+  border-radius: 4px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0px 1px;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+
+.social a:hover {
+  background-color: transparent;
+  color:#fff;
+}
+
+.social a .fa {
+  color:#fff;
+  font-size: 14px;
+}
+
+.social a .fa:hover {
+  color:#F56FAD;
+}
