@@ -15,4 +15,4 @@ My portfolio website
 - JavaScript
 
 ### Link:-
-https://adjascently.github.io/Portfolio/
+https://sai31956.github.io/Portfolio/
