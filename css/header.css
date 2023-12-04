@@ -29,18 +29,16 @@ header .row {
   align-items: left;
 }
 
-
-}
 .navbar{
-background-color:black;
+background-color:#150050;
 }
 
 .navbar ul {
   list-style: none;
-  background-color:;
+  background-color:#150050;
   min-width: 1200px
-  margin: 35px;
-  padding:px;
+  margin 35px;
+  padding:0 px;
 }
 
 .navbar ul li {

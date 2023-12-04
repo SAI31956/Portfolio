@@ -32,7 +32,7 @@
 .filter-btn ul li.active {
     color: #5f88e0;
     border-bottom: 2px solid #5f88e0;
-   
+
 }
 
 .filter-btn {
@@ -96,8 +96,8 @@
 }
 
 .item:hover .overlay .fa {
-    animation: galleryIcon 0.8s ease;
     -webkit-animation: galleryIcon 0.8s ease;
+    animation: galleryIcon 0.8s ease;
 }
 
 @keyframes galleryIcon {
@@ -120,8 +120,8 @@
 }
 
 .item:hover .overlay h4 {
-    animation: galleryText 0.8s ease;
     -webkit-animation: galleryText 0.8s ease;
+    animation: galleryText 0.8s ease;
 }
 
 @keyframes galleryText {
@@ -196,6 +196,4 @@
     padding: 0;
     line-height: 35px;
 
-    
-    
-    
+}
