@@ -1,5 +1,5 @@
 .home {
-  min-height: ;
+  min-height:10 ;
   background-image: url("https://cdn.dribbble.com/users/3809802/screenshots/16059651/media/5c4954ef88fcf88dd0d1604e5e12377e.png?compress=1&resize=1200x900&vertical=top");
 
   background-size: cover;
@@ -21,9 +21,8 @@
 .block {
   flex: 0 0 75%;
   max-width: 75%;
-  color #150050;
+  color:#150050;
   padding-left: 35px;
-  border-left: 3px solid ##150050;
   margin-top: 50px;
 }
 .block h1 {
@@ -62,6 +61,6 @@
   transition: all 0.5s ease;
 }
 .cv-btn a:hover {
-  background-color:#;
-  color:#FFC8C8;
+  background-color:#610094;
+  color: #FFC8C8;
 }
